@@ -49,18 +49,22 @@ Match System: If both users like each other’s profiles, you’ll be notified o
 
 
 Dog Profile Details: View detailed information on each dog, such as their name, breed, age, and more.
-Customization
-Profile Data: Modify the data for dog profiles by editing the dataset in the src folder or fetching data from an external API.
-UI/UX: Customize the appearance of the app by editing the CSS or using a CSS-in-JS solution like Styled Components.
-Matching Logic: Enhance or modify the matching logic to suit your needs.
-Example
+
+## Example
 When you open the app:
 
 You are greeted with dog profiles, each containing images and information.
+
 Swipe right if you're interested in the profile, or swipe left to pass.
+
 If two profiles "like" each other, a match notification will be displayed.
-Dependencies
+
+## Dependencies
+
 React: Frontend framework for building the UI.
+
 React Swipeable: Library for implementing swipe gestures.
+
 Axios: (Optional) For fetching profile data from an API.
+
 CSS or Styled Components: For styling the user interface.
